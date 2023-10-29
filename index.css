@@ -1,0 +1,385 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    width: 1318px;
+    margin: auto;
+    position: relative;
+}
+
+div img{
+    margin-top: 10px;
+    width:150px;
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    line-height: 90px;
+    position: sticky;
+    position:  -webkit-sticky;
+    height: 90px;
+    background-color: #132043;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color: #FDF0F0;
+    font-weight:500;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 22px 0px 22px;
+    text-decoration: none;
+}
+
+nav ul li button{
+    border: none;
+    padding: 10px 28px;
+    border-radius: 15px;
+    background-color: #1F4172;
+    color: #F9F7F7 ;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+/* home */
+.wrapper2 {
+    width: 1318px;
+    margin:auto;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 200px;
+    background-color: #FFFBF5;
+    color: #132043;
+    height: 300px;
+}
+
+.wrapper2 h1{
+    padding: 8px;
+    font-size: 54px;
+}
+
+.wrapper2 p{
+    padding: 8px;
+}
+
+div a button{
+    border: none;
+    padding: 16px 40px;
+    border-radius: 15px;
+    background-color: #132043;
+    color: #F9F7F7 ;
+    font-weight:700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* about me */
+.wrapper1 {
+    width: 1518px;
+    margin:auto;
+    position: relative;
+    background-color: #FFFBF5;
+    color: #132043;
+    height: 630px;
+}
+
+.home-right img {
+    float: left;
+    width: 300px;;
+    padding: 112px 200px 0px 350px ;
+    transition: 0.3s;
+}
+
+.home-right img:hover {
+    transform: scale(1.1); /* Efek zoom saat dihover */
+    filter: grayscale(50%); /* Efek abu-abu saat dihover */
+}
+
+
+.wrapper1 h1{
+    padding: 8px 100px;
+    font-size: 28px;
+    margin-right: 350px;
+}
+
+.wrapper1 h4{
+    padding: 8px 200px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* prtfolio */
+.wrapper3 {
+    width: 1518px;
+    overflow: hidden;
+    margin:auto;
+    position: relative;
+    background-color: #FFFBF5;
+    color: #132043;
+    height:max-content;
+}
+
+.portfolio-left {
+    float: left;
+    width: 50%; /* Menggunakan setengah lebar parent untuk div ini */
+}
+
+.portfolio-right {
+    float: right;
+    width: 50%; /* Menggunakan setengah lebar parent untuk div ini */
+}
+
+.wrapper3 h1{
+    padding: 8px 200px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wrapper3 img{
+    width: 500px;
+}
+
+.wrapper3 h3 {
+    margin-top: 50px;
+    margin-right: 400px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper3 h4 {
+    margin-top: 25px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper3 p {
+    margin-top: 15px;
+    margin-right: 200px;
+    float: left;
+}
+
+/* skills */
+.wrapper4 {
+    width: 1518px;
+    overflow: hidden;
+    margin:auto;
+    position: relative;
+    background-color: #FFFBF5;
+    color: #132043;
+    height: 530px;;
+}
+
+.wrapper4 h1{
+    padding: 8px 200px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    padding: 4px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #f3b0ff;
+    display: inline-block;
+    padding: 8px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: #ffcc33;
+  }
+  .bar.back::before{
+    background-color: #a6cfe3;
+  }
+  .bar.end::before{
+    background-color: #a6e3af;
+  }
+  .bar.on::before{
+    background-color: #e3a6b2;
+  }
+
+  .bar.learning::before{
+    width: calc(85% - 16px);
+  }
+  .bar.basic::before{
+    width: calc(75% - 16px);
+  }
+  .bar.intermediate::before{
+    width: calc(70% - 16px);
+  }
+  .bar.advanced::before{
+    width: calc(80% - 16px);
+  }
+  .bar.expert::before{
+    width: calc(80% - 16px);
+  }
+  .bar.advanceds::before{
+    width: calc(93% - 16px);
+  }
+  .bar.experts::before{
+    width: calc(92% - 16px);
+  }
+
+/* contact */
+.wrapper5 {
+    width: 1518px;
+    overflow: hidden;
+    margin:auto;
+    position: relative;
+    background-color: #132043;
+    color: #132043;
+    height:max-content;
+}
+
+.wrapper5 h1{
+    padding: 8px 200px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+.wrapper5 .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper5 .button:hover{
+  width: 200px;
+}
+.wrapper5 .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper5 .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper5 .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper5 .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper5 .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper5 .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper5 .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper5 .button:hover .icon i{
+  color: #fff;
+}
+.wrapper5 .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper5 .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper5 .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper5 .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper5 .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper5 .button:nth-child(5) span{
+  color: #ff0000;
+}
