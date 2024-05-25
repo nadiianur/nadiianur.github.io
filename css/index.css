@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&family=Style+Script&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    padding: 0 1cm 0 1cm;
+    background-color: white;
+    opacity: 80%;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.24rem;
+    color: #021F3E;
+}
+
+.nav-kanan {
+    font-size: 0.9rem;
+    color: #021F3E;
+}
+
+.navbar .nav .nav-item .nav-link {
+    color: #021F3E;
+}
+
+.navbar .nav .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #713EDA;
+}
+
+.home {
+    margin: 0;
+    padding: 2% 0 0 0;
+}
+
+.helo {
+    color: #713EDA;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.name {
+    color: #021F3E;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.button-ungu {
+    width: fit-content;
+    height: 6vh;
+    background-color: #713EDA;
+    color: white;
+    border-radius: 24px;
+}
+
+.button-ungu1 {
+    width: fit-content;
+    height: 9vh;
+    background: linear-gradient(85deg, #31245C, #713EDA);
+    color: white;
+    border-radius: 24px;
+}
+
+.home-kiri {
+    padding: 16% 0 0 16%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    background-color: #31245C;
+    color: white;
+    padding: 16%;
+}
+
+.about-me {
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 24px;
+}
+
+.hai {
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #713EDA;
+}
+
+.education {
+    padding: 10% 10% 6% 10%;
+}
+
+.edu {
+    background-color: #713EDA;
+    border: 4px solid #713EDA;
+    padding: 6px;
+    border-radius: 24px;
+    margin-left: 40px;
+}
+
+.edu1 {
+    border: 4px solid #31245C;
+    background-color: #31245C;
+    padding: 6px;
+    border-radius: 24px;
+    margin-left: 40px;
+}
+
+.td-edu {
+    font-size: 14px;
+    font-weight: 400;
+    color: #713EDA;
+}
+
+.td-edu1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #31245C;
+}
+
+.skills {
+    padding: 6% 8% 5% 8%;
+}
+
+.card-body img {
+    border-radius: 24px;
+}
+
+.blue {
+    background-color: #31245C;
+    color: white;
+}
+
+.purple {
+    background-color: #713EDA;
+    color: white;
+}
+
+.organization {
+    padding: 6% 8% 5% 0;
+}
+
+.o-gdsc {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.kanan {
+    padding-left: 12%;
+
+}
+
+.o-judul {
+    font-weight: 700;
+}
+
+.o-txt {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.organization1 {
+    padding: 8% 0 8% 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-org {
+    background-color: #713EDA;
+    border: 4px solid #713EDA;
+    border-radius: 24px;
+}
+
+.experience {
+    padding: 6% 8% 5% 8%;
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.i-judul {
+    font-weight: 700;
+}
+
+.i-txt {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.digistar{
+    background-color: #713EDA;
+    color: white;
+    padding: 6%;
+    border-radius: 16px;
+}
+
+.project{
+    padding: 2% 8% 5% 8%;
+}
+
+.c-project{
+    padding: 2%;
+    background-color: rgba(113, 62, 218, 0.8); 
+    border-radius: 24px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.p-judul{
+    color: #FDDE55;
+    font-weight: 800;
+    font-size: 1.2vw;
+}
+
+.p-subjudul{
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+
+.p-txt{
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+.ach{
+    padding: 10% 8% 8% 8%;
+}
+
+.contact{
+    padding: 6% 8% 0 8%;
+    background-color: #31245C;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.email {
+    background-color: rgb(113, 62, 218);
+    width: 0.8cm;
+    height: 0.8cm;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainn{
+    background-color: #31245C;
+    color: white;
+    padding: 12% 12% 12% 12%;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        display: block !important;
+        background-color: rgba(113, 62, 218, 0.8); 
+        color: white;
+        padding: 2%;
+    }
+    .p-judul{
+        color: #FDDE55;
+        font-weight: 800;
+        font-size: 1.2vw;
+    }
+    
+    .p-subjudul{
+        font-weight: 700;
+        font-size: 1.1vw;
+    }
+    
+    .p-txt{
+        font-weight: 300;
+        font-size: 1vw;
+    }
+}
