@@ -86,7 +86,7 @@ nav {
 .about {
     background-color: #31245C;
     color: white;
-    padding: 15%;
+    padding: 16%;
 }
 
 .about-me {
@@ -122,8 +122,15 @@ nav {
     margin-left: 40px;
 }
 
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
 .td-edu {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: #713EDA;
 }
